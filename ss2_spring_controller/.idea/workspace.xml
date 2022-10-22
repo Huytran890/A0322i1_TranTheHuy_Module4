@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f821d29-edde-4b27-9278-31b038e4c5b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/bai_tap/.idea/bai_tap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/src/main/java/customer/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/src/main/java/customer/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/src/main/java/customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/src/main/java/customer/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/customer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/spring_greeting/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/spring_greeting/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/spring_greeting/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/spring_greeting/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/spring_greeting/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/spring_greeting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/spring_greeting/src/main/java/greeting/controller/GreetingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/spring_greeting/src/main/webapp/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/spring_greeting/src/main/webapp/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/spring_greeting/src/main/webapp/views/index1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_overview_Spring_MVC/thuc_hanh/spring_greeting/src/main/webapp/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2GLtj7PXWQOHKOyaByHjZKG8zMQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_tap/calculator" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f821d29-edde-4b27-9278-31b038e4c5b5" name="Default Changelist" comment="" />
+      <created>1666179823525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666179823525</updated>
+      <workItem from="1666179828686" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1666179855739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1666179855739" />
+  </component>
+</project>
