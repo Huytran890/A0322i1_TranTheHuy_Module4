@@ -35,7 +35,6 @@
 </div>
 <form:form style="margin: 50px 5% 0px 5%" modelAttribute="form" method="post" action="/send">
     <div>
-
         <form:label path="name" for="inputName">Họ và tên(Ghi chữ HOA) <span style="color: red">(*)</span></form:label>
         <form:input path="name" type="text" id="inputName"/>
     </div>
