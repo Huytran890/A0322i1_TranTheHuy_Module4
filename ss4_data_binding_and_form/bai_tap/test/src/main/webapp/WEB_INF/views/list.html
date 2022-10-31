@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head">
+    <!--    <meta charset="UTF-8">-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>List Music</title>
+</head>
+<body>
+
+<p style="height: 40px;color: cyan;text-align: center;font-size: 27px">
+    <a th:href="@{/create}">
+        Add new Music
+    </a>
+</p>
+<h2 th:text="${messages}" style="color: green"></h2>
+
+<h2>Music</h2>
+<table id = "music">
+    <thead>
+    <tr>
+        <th>Number</th>
+        <th>Name music</th>
+        <th>Artist</th>
+        <th>Kind of music</th>
+        <th>file</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="music : ${musics}">
+        <td th:text="${music.id}"></td>
+        <td th:text="${music.name}"></td>
+        <td th:text="${music.artist}"></td>
+        <td th:text="${music.kindOfMusic}"></td>
+        <td><a class="btn btn-info" th:href="${music.file}">link</a></td>
+
+
+        <td>
+            <a type="button" class="btn btn-primary" th:href="@{/{id}/edit(id=${music.id})}">edit</a>
+
+        </td>
+        <!--    <td><a th:href="@{/delete(id=${row.id})}">Delete</a></td>-->
+
+
+        <td>
+            <button
+                    th:attr="onclick=|deleteModal('${music.id}', '${music.name}')|"
+                    type="button" class="btn btn-danger" data-toggle="modal"
+                    data-target="#exampleModalCenter">
+                Delete
+            </button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Delete Music</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Are you delete?
+                <span>Name music: <p id="name"></p></span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
+                </button>
+                <form method="get" th:action="@{/delete}">
+                    <input type="hidden" name="id" id="id-del">
+                    <button type="submit" class="btn btn-primary">Xác nhận xoá</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function deleteModal(id,name) {
+        document.getElementById("id-del").value = id;
+        document.getElementById("name").innerText=name;
+    }
+</script>
+</tr>
+</tbody>
+</table>
+<footer th:replace="/layout :: footer"></footer>
+</body>
+</html>
