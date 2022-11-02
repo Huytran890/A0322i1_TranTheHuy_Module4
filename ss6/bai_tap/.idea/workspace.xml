@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9b3fda1-e183-4fc4-b826-6fde598da855" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/java/com/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/java/com/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/java/com/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/java/com/repository/Impl/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/java/com/repository/Impl/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/java/com/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/java/com/service/Impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/webapp/WEB-INF/views/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product_test/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/java/com/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/java/com/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/java/com/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/java/com/repository/Impl/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/java/com/repository/Impl/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/java/com/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/java/com/service/Impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/user_management_orm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/src/main/java/com/controller/MusicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/src/main/java/com/models/Music.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/src/main/java/com/service/Impl/MusicServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/src/main/java/com/service/MusicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/src/main/webapp/WEB-INF/views/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_overview_Spring_MVC/thuc_hanh/Build_song_upload_function (music player application)/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss3_view_thymeleaf/bai_tap/management_product/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3_view_thymeleaf/bai_tap/management_product/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss3_view_thymeleaf/bai_tap/management_product/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3_view_thymeleaf/bai_tap/management_product/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss3_view_thymeleaf/bai_tap/management_product/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3_view_thymeleaf/bai_tap/management_product/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/Build_a_medical_declaration_form/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/Build_a_medical_declaration_form/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/Build_a_medical_declaration_form/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/Build_a_medical_declaration_form/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/Build_a_medical_declaration_form/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/Build_a_medical_declaration_form/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/java/com/controller/MusicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/java/com/models/Music.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/java/com/repository/BaseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/java/com/repository/IMusicRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/java/com/repository/Impl/MusicRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/java/com/service/IMusicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/java/com/service/Impl/MusicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/resources/hibernate.conf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/webapp/WEB_INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/webapp/WEB_INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/webapp/WEB_INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/webapp/WEB_INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/webapp/WEB_INF/views/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/webapp/WEB_INF/views/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_data_binding_and_form/bai_tap/test/src/main/webapp/WEB_INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5/bai_tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5/bai_tap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5/bai_tap/test/src/main/resources/hibernate.conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5/bai_tap/test/src/main/resources/hibernate.conf.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2GzARCRKq5NoYDHfihY6TIBrT8y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9b3fda1-e183-4fc4-b826-6fde598da855" name="Default Changelist" comment="" />
+      <created>1667381027792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667381027792</updated>
+      <workItem from="1667381028954" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="209" y="23" key="new project wizard" timestamp="1667381045496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1667381045496" />
+  </component>
+</project>
