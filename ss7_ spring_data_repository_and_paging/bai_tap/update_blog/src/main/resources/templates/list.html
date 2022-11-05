@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h3><a th:href="@{/create}">Create new Blog</a></h3>
+</div>
+<div>
+    <h4><a href="/list">List of Blog</a></h4>
+</div>
+
+<div>
+    <form action="/list" method="get">
+        <input type="text" name="keyword" placeholder="search name blog">
+
+        <input type="submit" value="search">
+    </form>
+</div>
+
+<div>
+    <div>
+        <table>
+            <caption><h3>List of Blog</h3></caption>
+            <thead>
+            <tr>
+                <th>Id Blog</th>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Type of blog</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="blogObj : ${blog}">
+                <td th:text="${blogObj.idBlog}"></td>
+                <td th:text="${blogObj.nameBlog}"></td>
+                <td th:text="${blogObj.title}"></td>
+                <td><textarea th:text="${blogObj.content}"></textarea></td>
+                <td th:text="${blogObj.blogType.name}"></td>
+                <td>
+                    <button>
+                        <a th:href="@{/delete(id=${blogObj.idBlog})}">Delete</a>
+                    </button>
+                </td>
+                <td>
+                    <button>
+                        <a th:href="@{/edit(id=${blogObj.idBlog})}">Edit</a>
+                    </button>
+                </td>
+
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <div>
+            <a th:if="${blog.hasPrevious()}"
+               th:href="@{/list(page=${blog.number - 1}, keyword=${keywordVal})}">
+                Previous
+            </a>
+            <span th:text="${blog.number + 1}"></span>
+            /
+            <span th:text="${blog.totalPages}"></span>
+            <a th:if="${blog.hasNext()}"
+               th:href="@{/list(page=${blog.number + 1}, keyword=${keywordVal})}">
+                Next
+            </a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

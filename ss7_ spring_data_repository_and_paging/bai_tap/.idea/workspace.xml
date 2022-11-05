@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c34edc55-b5d3-4ce5-8b3c-eac528a1ac5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/java/com/codegym/blog/controller/AppBlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/java/com/codegym/blog/model/AppBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/java/com/codegym/blog/model/BlogType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/java/com/codegym/blog/repository/IAppBlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/java/com/codegym/blog/repository/IBlogTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/java/com/codegym/blog/service/IAppBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/java/com/codegym/blog/service/IBlogTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/java/com/codegym/blog/service/Impl/AppBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/java/com/codegym/blog/service/Impl/BlogTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/resources/templates/lay-out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_blog/src/main/resources/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/java/com/codegym/controller/AppMusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/java/com/codegym/model/AppMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/java/com/codegym/repository/IAppMusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/java/com/codegym/repository/Impl/AppMusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/java/com/codegym/repository/Impl/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/java/com/codegym/service/IAppMusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/java/com/codegym/service/Impl/AppMusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/webapp/WEB-INF/views/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/app_music/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/java/vn/codegym/product/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/java/vn/codegym/product/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/java/vn/codegym/product/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/java/vn/codegym/product/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/java/vn/codegym/product/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/java/vn/codegym/product/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/java/vn/codegym/product/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/java/vn/codegym/product/service/Impl/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/java/vn/codegym/product/service/Impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5/bai_tap/product/src/main/resources/templates/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5/bai_tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5/bai_tap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5/bai_tap/appBlogs/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5/bai_tap/appBlogs/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5/bai_tap/appBlogs/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5/bai_tap/appBlogs/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2H2XyHJloPPpAoqholHkZAeQJNa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c34edc55-b5d3-4ce5-8b3c-eac528a1ac5f" name="Default Changelist" comment="" />
+      <created>1667484404985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667484404985</updated>
+      <workItem from="1667484407793" duration="384000" />
+      <workItem from="1667574473196" duration="199000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="103" key="FileChooserDialogImpl" timestamp="1667574659366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="103" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1667574659366" />
+    <state x="209" y="23" key="new project wizard" timestamp="1667574673489">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1667574673489" />
+  </component>
+</project>

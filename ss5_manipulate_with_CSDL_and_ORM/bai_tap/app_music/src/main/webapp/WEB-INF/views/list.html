@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h3><a th:href="@{/create}">Create new Song</a></h3>
+</div>
+<div>
+    <table>
+        <caption><h2>List of Song</h2></caption>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Song of name</th>
+            <th>Singer</th>
+            <th>Type of song</th>
+            <th>Link</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="musicObj :${music}">
+            <td th:text="${musicObj.id}"></td>
+            <td th:text="${musicObj.songName}"></td>
+            <td th:text="${musicObj.singer}"></td>
+            <td th:text="${musicObj.typeOfSong}"></td>
+            <td >
+                <a th:href="${musicObj.link}">Link</a>
+            </td>
+            <td>
+                <button>
+                    <a th:href="@{/delete(id=${musicObj.id})}">Delete</a>
+                </button>
+            </td>
+            <td>
+                <button>
+                    <a th:href="@{/edit(id=${musicObj.id})}">Edit</a>
+                </button>
+            </td>
+            <!--            <td>-->
+            <!--                <button>-->
+            <!--                    <a th:href="@{/{id}/view(id=${productObj.id})}">View</a>-->
+            <!--                </button>-->
+            <!--            </td>-->
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
