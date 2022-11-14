@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <a th:href="@{/create}">Create new song</a>
+</div>
+
+<div>
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name of Song</th>
+                <th>Singer</th>
+                <th>Category</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="songObj : ${song}">
+                <td th:text="${songObj.idSong}"></td>
+                <td th:text="${songObj.nameSong}"></td>
+                <td th:text="${songObj.singer}"></td>
+                <td th:text="${songObj.category}"></td>
+                <td>
+                    <button>
+                        <a th:href="@{/edit(id=${songObj.idSong})}">Edit</a>
+                    </button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <a th:if="${song.hasPrevious()}"
+           th:href="@{/list(page=${song.number - 1})}">
+            Previous
+        </a>
+        <span th:text="${song.number+1}"></span>
+        /
+        <span th:text="${song.totalPages}"></span>
+        <a th:if="${song.hasNext()}"
+           th:href="@{/list(page=${song.number + 1})}">
+            Next
+        </a>
+    </div>
+</div>
+</body>
+</html>
