@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th = "https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <form action="/borrowed" method="post" th:object="${book}">
+        <p>Do you agree to borrow this book?</p>
+        <div>
+            <input type="hidden" th:value="*{id}" th:field="*{id}">
+        </div>
+        <div>
+            <input type="hidden" th:value="*{codeBook}" th:field="*{codeBook}">
+        </div>
+        <div >
+            <input type="hidden" th:value="*{quantity}" th:field="*{quantity}">
+        </div>
+        <div>
+            <input type="hidden" th:value="*{currentQuantity}" th:field="*{currentQuantity}">
+        </div>
+        <div>
+            <label for="email">Name book:</label>
+            <input type="text" id="email" th:value="*{nameBook}" th:field="*{nameBook}">
+        </div>
+        <div>
+            <label for="email">Input your user:</label>
+            <input type="text" name="userName" placeholder="Input your user" >
+        </div>
+        <input type="submit" value="Borrow">
+        <button><a href="/list">Huỷ</a></button>
+    </form>
+</div>
+</body>
+</html>

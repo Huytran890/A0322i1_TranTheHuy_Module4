@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping cart</title>
+  <th:block th:replace="~{layout :: css-head}"></th:block>
+</head>
+<body>
+<div class="container">
+  <h3><a class="btn btn-warning" href="/shop">Shop</a></h3>
+</div>
+
+<div class="container">
+  <h1>Your cart</h1>
+  <div>
+    <table class="table table-view" th:if="${cart!=null && cart.getProductMap().size() > 0}">
+      <thead>
+      <tr class="table-active">
+        <th></th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th>Quantity</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr class="table-warning" th:each="productMap:${cart.productMap}">
+        <td></td>
+        <td th:text="${productMap.key.nameProduct}"></td>
+        <td th:text="${productMap.key.price}"></td>
+        <td th:text="${productMap.key.description}"></td>
+        <td th:text="${productMap.value}"></td>
+      </tr>
+      </tbody>
+      <tfoot>
+      <tr class="table-active">
+        <td>Total</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td th:text="${cart.countTotalPayment()}"></td>
+      </tr>
+      </tfoot>
+    </table>
+
+    <div th:if="${cart == null || cart.getProductMap().size() == 0}">
+      <strong>Cart Empty</strong>
+    </div>
+  </div>
+</div>
+
+<footer th:replace="~{layout::css-footer}"></footer>
+
+<div th:replace="~{layout :: css-body}"></div>
+
+</body>
+</html>

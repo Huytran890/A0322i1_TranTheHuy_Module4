@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <th:block th:replace="~{layout :: css-head}">
+
+    </th:block>
+</head>
+<body>
+<header th:replace="~{layout::css-nav}"></header>
+
+<div class="container">
+    <table class="table table-view">
+        <thead>
+        <tr class="table-active">
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Add to Cart</th>
+            <th>Detail</th>
+        </tr>
+        </thead>
+        <tbody>
+        <th:block th:each="productObj:${products}">
+            <tr class="table-warning">
+                <td th:text="${productObj.idProduct}"></td>
+                <td th:text="${productObj.nameProduct}"></td>
+                <td th:text="${productObj.price}"></td>
+                <td th:text="${productObj.description}"></td>
+                <td><a class="btn btn-warning" th:href="@{/add/__${productObj.idProduct}__(action='list')}">Add to
+                    cart</a></td>
+                <td><a class="btn btn-warning" th:href="@{/detail/__${productObj.idProduct}__(action='list')}">View</a>
+                </td>
+            </tr>
+        </th:block>
+        </tbody>
+
+    </table>
+
+</div>
+
+<footer th:replace="~{layout::css-footer}"></footer>
+
+<div th:replace="~{layout :: css-body}">
+
+</div>
+</body>
+</html>

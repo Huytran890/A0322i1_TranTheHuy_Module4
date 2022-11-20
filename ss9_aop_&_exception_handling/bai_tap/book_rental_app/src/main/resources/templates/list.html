@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <th:block th:replace="~{layout :: css-head}">
+    </th:block>
+</head>
+<body>
+<header th:replace="~{layout :: css-nav}">
+
+</header>
+<div class="container graphic-container">
+    <div>
+        <table class="table table-view">
+
+            <caption><h2>List of Book</h2></caption>
+            <thead>
+            <tr class="table-active">
+                <th>Id</th>
+                <th>Code of Book</th>
+                <th>Name of Book</th>
+                <th>Quantity</th>
+                <th>Current Quantity</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="table-warning" th:each="bookObj :${book}">
+                <td th:text="${bookObj.id}"></td>
+                <td th:text="${bookObj.codeBook}"></td>
+                <td th:text="${bookObj.nameBook}"></td>
+                <td th:text="${bookObj.currentQuantity}"></td>
+                <td th:text="${bookObj.quantity}"></td>
+                <td><a th:href="@{/borrowed(id=${bookObj.id})}">Borrowed</a></td>
+            </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div>
+        <div>
+            <a th:if="${book.hasPrevious()}"
+               th:href="@{/list(page=${book.number - 1})}">
+                Previous
+            </a>
+            <span th:text="${book.number + 1}"></span>
+            /
+            <span th:text="${book.totalPages}"></span>
+            <a th:if="${book.hasNext()}"
+               th:href="@{/list(page=${book.number + 1})}">
+                Next
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer th:replace="~{layout :: css-footer}"></footer>
+
+<div th:replace="~{layout :: css-body}">
+
+</div>
+</body>
+</html>
